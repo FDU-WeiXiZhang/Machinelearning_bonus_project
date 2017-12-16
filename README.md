@@ -9,13 +9,19 @@ The second module is face recognization module. We used transfer learning techno
  
  If you want to run this project on your own PC, you should 
 -Download the dataset_fetching.ipynb and final_project.ipynb. 
+
 -Run dataset_fetching.ipynb to get the dataset from dropbox. After this step, you will have a train folder and a test folder in your current path. 
+
 -Run final_project.ipynb to get the output of our project. This step could cost about 20min because of the large amount of data.
 
  If you want to regonize your own face using, you should
 -Download the dataset_fetching.ipynb, face-detection.ipynb and final_project.ipynb.
+
 -Run dataset_fetching.ipynb to get the dataset from dropbox. After this step, you will have a train folder and a test folder in your current path. 
+
 -Extract your face in your photo using face-detection.ipynb and put the face images in the train folder and leave one for validation. 
+
 -Modify the last layer of deep learning network to the classes you want to classify.
+
 -Run final_project.ipynb to train the model and use validation image to enjoy the magic of machine learning!!! 
 
